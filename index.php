@@ -15,7 +15,7 @@
             <option value="levenshtein">levenshtein</option>
         </select>
         <button type="submit">get distance</button>
+
     </form>
-    <textarea name="result" cols="30" rows="10"></textarea>
 </body>
 </html>

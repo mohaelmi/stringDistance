@@ -8,6 +8,14 @@ $calc    = $_POST['cal'];
 
 
 $distance = new Calc($string1, $string2, $calc);
-echo $distance->callClass(); 
 
 ?>
+<html>
+    <body>
+    <p ><?php  echo $distance->callClass(); ?> </p>
+    <!-- <button id="back" onclick= "goback()" > Back </button> -->
+    </body>
+</html>
+
+  
+
